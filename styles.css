@@ -52,4 +52,10 @@ body {
 }
 
 .link:hover {
-  background-color: #2980b9; /* Warna latar
+  background-color: #2980b9; /* Warna latar belakang (biru yang lebih gelap) saat di hover */
+  transform: scale(1.05); /* Efek zoom ketika hover */
+}
+
+.linktree-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efek bayangan lebih besar saat di hover */
+}
