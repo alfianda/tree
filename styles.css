@@ -29,8 +29,8 @@ body {
 }
 
 .username {
-  margin-top: 10px;
-  margin-bottom: 5px; /* Tambahkan margin-bottom di sini */
+  margin-top: 5px; /* Turunkan margin-top agar lebih dekat dengan gambar profil */
+  margin-bottom: 5px;
   font-size: 18px;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .link {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px; /* Kurangi margin-bottom untuk mendekatkan link dengan username */
   padding: 10px;
   text-align: center;
   text-decoration: none;
